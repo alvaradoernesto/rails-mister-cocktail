@@ -1,0 +1,84 @@
+.card-trip-infos {
+  color: white;
+}
+
+.card-trip {
+  border: 2px solid #F84620;
+  box-shadow: 0 0 3px rgba( 0,0,0,0.4);
+  color: white;
+}
+
+.card-cocktail-show{
+  vertical-align: middle;
+}
+
+
+.card{
+  height: 300px;
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-show {
+  object-fit: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.show-image {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredient-container {
+  border: 1px solid #F6C8D8;
+  height: 70%;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #181a54;
+  padding: 8px;
+  box-shadow: 9px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ingredient-container p {
+  font-size: 24px;
+  color: black;
+
+}
+
+ .cards{
+   position: relative;
+  top: 200px;
+  display: grid;
+  flex-grow: 1;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-gap: 1em;
+  margin-left: 1em;
+  }
+
+.cocktail-name p{
+  font-size: 24px;
+  border: 1px solid #8080801c;
+  text-align: center;
+  font-weight: bold;
+  color: #F89C20;
+}
+
+.show-cocktail-name h2{
+  font-size: 48px;
+  color: #181a54;
+}
+
+.show-cocktail {
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+  border: 1px solid #181a54;
+  border-radius: 4px;
+}
