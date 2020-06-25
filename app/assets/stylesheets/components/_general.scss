@@ -3,21 +3,25 @@ a:hover {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Notable', sans-serif;
   background-color: grey;
 }
 
 h1 {
-  color: white;
-  font-size: 7em;
+  font-family: 'Notable', sans-serif;
+  color: orange;
+  font-size: 130px;
+  text-shadow: 2px 2px 0px black, 0 0 1em black, 0 0 0.2em black;
+  font-weight: bold;
+
 }
 
 h2 {
- font-family: 'Quicksand', sans-serif;
+ font-family: 'Notable', sans-serif;
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Notable', sans-serif;
   color: black;
   margin-top: 1em;
 }

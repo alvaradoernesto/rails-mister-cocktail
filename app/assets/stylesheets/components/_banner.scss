@@ -1,16 +1,9 @@
 .cocktail-banner {
-  background-image: url(https://images.unsplash.com/photo-1468072114808-903e572b8ead?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2532&q=80);
+  background-image: url(https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80);
   background-size: cover;
-  height: 75vh;
+  height: 400px;
   background-repeat: no-repeat;
-  color: #eee;
-  position: center;
   background-position: center;
   padding: 150px 0;
-}
-
-.banner h1 {
-  margin: 0;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-weight: bold;
+  -webkit-filter: grayscale(30%);
 }
