@@ -4,6 +4,7 @@
         <h1>Choose your drink</h1>
   </div>
     <div class="cards display-grid mb-3">
+      <%= link_to "New cocktail", new_cocktail_path, class: "btn btn-primary"  %>
       <% @cocktails.each do |cocktail| %>
       <%= link_to cocktail_path(cocktail) do%>
       <div class="card" data-aos="fade-up" style="background-image: url(<%= cocktail.image_url %>)">
